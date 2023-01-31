@@ -143,8 +143,8 @@ func intToHex(num int) []byte {
 func main() {
 	bc := NewBlockChain()
 
-	bc.AddBlock(TransactionData{"A", "B", 100, time.Now().Unix()})
-	bc.AddBlock(TransactionData{"B", "C", 200, time.Now().Unix()})
+	bc.AddBlock(TransactionData{"fahim", "razzak", 100, time.Now().Unix()})
+	bc.AddBlock(TransactionData{"razu", "manik", 200, time.Now().Unix()})
 
 	fmt.Println("---Blockchain---")
 	ShowBlockchain(bc)
